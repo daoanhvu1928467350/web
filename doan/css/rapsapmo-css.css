@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+#rapsapmo{
+	height: auto;
+	background-color:#272727 ;
+	color: white;
+	padding: 5px;
+	margin-bottom: 25px;
+}
+.li-item-rapsapmo{
+	display: inline-block;
+}
+#rapsapmo-detail{
+	height: 100%;
+	margin: auto;
+	
+	padding: 0px!important;
+	width: 900px;
+}
+#rapsapmo-detail img{
+	width: 900px;
+}
+

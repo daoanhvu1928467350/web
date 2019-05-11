@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+#datcho-element{
+	height: auto;
+	
+	margin: auto;
+	
+}
+.hang li{
+    
+	display: inline-block;
+}
+.soghe li{
+	display: inline-block;
+	background-color: #DBDEE1;
+	padding: 5px;
+}
+.item-hangghe{
+	width: 30px;
+	height: 30px;
+}
+.item-hangghe-last{
+	margin-left: 50px;
+}
+#datcho1{
+	height: auto;
+}
+.li-item-datcho:hover{
+	cursor: pointer;
+}
+.red{
+	background-color: #FFA300!important;
+	color: white;
+}
+#btn-tieptuc-datcho{
+	
+}
+.color-phanbiet{
+	height: 15px;
+	width:15px;
+	border:1px solid;
+	
+}
+.color-phanbiet-red{
+	background-color: red!important;
+	color: white;
+}
+.color-phanbiet-selected{
+	background-color: #FFA300;
+	color: white;
+}
+@media(max-width:768px ){
+	#hr-manhinh{
+		margin-left: 25%!important;
+		display: block;
+	}
+	.selected-datcho ul{
+		margin-left: 20%!important;
+	}
+	.item-hangghe-last{
+		display: none!important;
+	}
+}
+
+

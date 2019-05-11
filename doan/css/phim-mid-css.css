@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+#listfilm{
+	height: 100%;
+	padding: 0px!important;
+	
+	overflow: hidden;
+}
+#listfilm ul li{
+	list-style: none;
+	width: 300px!important;
+	
+	padding: 0px!important;
+	margin: 0px;
+	margin-right: 10px;
+	
+}
+
+#listfilm #ul-phim-slide{
+	height: 100%;
+	width: 3000px!important;
+	
+	border-color: blue;
+	padding: 0px!important;
+	
+}
+#img-phim-slide{
+	height: 100%;
+	padding: 0px!important;
+	z-index: 0;
+	
+}
+
+.control-prev-phim{
+	font-size: 50px;
+	position: absolute;left: 20px;
+	top: 35%;
+	z-index: 100;
+}
+ .control-prev-phim:hover{
+	cursor: pointer;
+	z-index: 100;
+}
+ .control-next-phim{
+	font-size: 50px;
+    position: absolute;right: 20px;
+	top:35%;
+	z-index: 100;
+}
+ .control-next-phim:hover{
+	cursor: pointer;
+	z-index: 100;
+}
+.position-muave{
+	height: 100%;
+	width: 300px;
+	/*display: block;*/
+	
+	
+	opacity: 0.4;
+   background-color: black;
+	
+	position:absolute;
+	top:0%;
+	z-index: 90;
+	display: none;
+	
+}
+
+
+.btn-muave{
+	color: white;
+	border:2px white solid;
+	opacity: 5;
+	position:absolute;	
+    top: 40%;left: 25%;
+	display: none;
+	
+	z-index: 90
+	
+}
+.btn-muave:hover{
+	color: #FFA300;
+	border-color: #FFA300;
+}

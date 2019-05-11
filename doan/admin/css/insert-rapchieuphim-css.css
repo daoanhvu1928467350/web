@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+#thuvien-img-rapchieuphim{
+	height: auto;
+	padding: 20px;
+	border:1px #FFA300 dotted;
+}
+.img-rapchieuphim1-thuvien1{
+	height: auto!important;
+	width: auto;
+	float: left;
+	margin: 10px;
+}
+#thuvien-anh-rapchieuphim{
+	height: auto;
+}
+#chonanh-rapchieuphim{
+	margin: 10px;
+}
+#img-uploaded-raphchieuphim{
+	display: none;
+}
+

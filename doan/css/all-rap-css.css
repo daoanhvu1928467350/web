@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+.li-item-rap,.li-item-all-rap{
+	display: inline-block;
+	margin: 25px;
+}
+#cumrap-element{
+	background-color:#272727;
+	color: white;
+}
+#rapchieuphim-element{
+	background-color:#272727;
+	color: white;
+}
+#rapchieuphim-detail{
+height: 100%;
+	
+	
+	padding: 0px!important;
+	width: 900px;
+}
+#rapchieuphim-detail img{
+	text-align: center;
+	width: 900px;
+}
+ .night-rapchieuphim-detail{
+	height: auto!important;
+	background-color: black;
+	padding: 32px;
+	width: 100%;
+	position:absolute;
+	opacity: 0.8;
+	color: white;
+	bottom: 0;
+	 margin-left: 14px;
+}
+.p-night{
+	color: white;
+	height: auto!important;
+	padding: 20px;
+	width: 100%;
+	position:absolute;
+	z-index: 100px;
+	bottom: 0;
+	
+}
+@media(max-width:768px){
+	#rapchieuphim-detail img{
+	text-align: center;
+	width: 400px;
+}
+	.night-rapchieuphim-detail{
+		width: 400px;
+	}
+}

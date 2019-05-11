@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+.img-event-thuvien1{
+	height: auto!important;
+	width: auto;
+	float: left;
+    margin: 10px; 
+}
+#img-daidien{
+	width: 240px;
+	height: 201px;
+}
+.img-event-thuvien1:hover{
+	cursor: pointer;
+}
+#div-img-event-upload{
+	display: none;
+}

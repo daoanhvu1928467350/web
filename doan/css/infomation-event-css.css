@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content-event{
+	
+	height: auto;
+	padding: 0px;
+	word-wrap: break-word!important;
+	
+}
+#content-infomation-event{
+	
+	height: auto;
+	
+	word-wrap: break-word!important;
+}
+#img-infomation-event{
+	
+	
+}
+#img-infomation-event img{
+	height: 200px;
+	width: 200px;
+}
+

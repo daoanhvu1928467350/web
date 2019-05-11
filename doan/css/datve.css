@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+#datve-official{
+	height: auto;
+	box-shadow: 10px 10px 16px -10px #BFC0BF;
+}
+#element-datve{
+	background-color: #FFA300;
+	border:1px solid;
+}
+#table-datve #soluong-datve{
+	text-align: left;
+}
+.input-datve{
+	width: 50px;
+	float: left;
+	margin: 2px;
+	margin-top: 0px;
+}
+.input-doan{
+	width: 50px;
+	float: left;
+	margin: 2px;
+	margin-top: 0px;
+}
+.thead{
+	background-color: #47251C;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: white;
+}
+
+#table-datve{
+	background-color: white;
+}
+.table-chonve tr td{
+	width: 10px;
+	vertical-align: middle;
+}
+.table-chonve{
+	background-color: white;
+}
+.btn-generation{
+	background-color: #FFA300!important;
+	color: white;
+}
+.btn-generation:hover{
+	color: white;
+}
+#element-thanhtoan{
+	background-color: #F1F1F1;
+	 margin-top: 12px;
+	
+	padding: 50px;
+	margin-right: 0px!important;
+	
+	
+	height: 100%;
+	box-shadow: 3px 4px 14px -5px #6e626e;
+	
+}
+#element-thanhtoan ul{
+	padding: 0px!important;
+	list-style: none;
+}
+#element-datve h2{
+	color: white;
+}
+#table-datve td{
+	width: 200px;
+	
+}
+#chonve td{
+	width: 200px;
+}
+.tong{
+	color: #FFA300;
+	font-weight: bold;
+}
+.icon-datve1{
+    margin-top: 2px;
+	width: auto!important;
+	padding: 0px!important;
+	float: left;
+}
+@media(max-width:768px){
+
+.rounded-circle{
+		display: none;
+	}
+	#chonve td{
+		width: auto!important;
+	}
+	.minus,.plus,.minus1,.plus1{
+		display: none;
+	}
+}

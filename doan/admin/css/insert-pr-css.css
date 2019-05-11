@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+#div-img-pr{
+	height: auto;
+}
+.thuvien-anh{
+	height: auto;
+	display: none;
+	position:fixed;
+    top: 50%;
+    left: 50%;
+    width:800px;
+   
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -20em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+	z-index: 120;
+}
+#close{
+	margin-right: 5px;
+	
+}
+.close{
+	font-size: 40px;
+}
+#thuvien .active{
+	background-color: white;
+}
+.tab-content{
+	height:300px;
+	background-color: white;
+	overflow-y: scroll;
+}
+.tab-content div{
+	height: 100%;
+	
+}
+#form-upload-pr{
+	margin:10% auto;
+	
+	height: auto;
+	width: 600px;
+	
+}
+.img-quangcao-thuvien1{
+	height: auto!important;
+	width: auto!important;
+	float: left;
+	margin: 10px;
+	
+}
+#xong{
+	margin:10px
+}
+#image-inserted{
+	display: none;
+}

@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+.content-change-event{
+	margin: 5px;
+}
+.show-content-change:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.show-content-change{
+	width: auto!important;
+	
+	
+}

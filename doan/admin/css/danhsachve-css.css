@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+.li-item-danhsachve.active{
+	background-color: #FFA300!important;
+	color: white;
+}
+.li-item-danhsachve{
+	margin-left: 15px;
+	border: 1px  #FFA300 solid;
+	color:  #FFA300;
+	border-radius: 5px;
+}
+.li-item-danhsachve:hover{
+	cursor: pointer;
+	background-color: #FFA300;
+	color: white;
+}
+#danhsachve .active{
+	background-color: white;
+	
+}
+#danhsachve{
+	overflow: hidden;
+	height: auto;
+}
+.update-giave1{
+	position:fixed;
+    top: 50%;
+    left: 50%;
+    width:700px;
+    height:auto!important;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: white;
+	display: none;
+	z-index: 106;
+}
+.header-detail-giave{
+	height: auto!important;
+	
+	border: 1px #ccc solid;
+	border-right: 0px;
+	border-left: 0px;
+	background-color: #f3f3f3;
+	
+	
+}
+.danhsachve tbody td{
+	width: 25%;
+}

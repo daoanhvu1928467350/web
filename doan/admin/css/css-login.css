@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+#div-login-admin{
+	height: 350px;
+	width:350px;
+	border-style: solid;
+	position: fixed;
+	top: 50%;
+    left: 50%;
+    margin-top: -15em; /*set to a negative number 1/2 of your height*/
+    margin-left: -10em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+	border-radius: 5px;
+    border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 4px 8px 21px -1px #AEAFAE;
+	
+}
+body{
+	background-color: url(../image/images.jpg);
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#header-login-admin{
+	
+	height: 50px;
+		border-radius: 5px;
+	padding: 5px;
+	background-color: #FFA300;
+	
+}
+#img-header-login{
+	height: 40px;
+	width: 40px;
+	vertical-align: middle;
+	
+}
+#title-login{
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	
+}
+.resize{
+	width: 300px!important;
+}
+#element-login-admin{
+	height: 300px;
+	padding: 25px;
+}
+#login{
+	background-color: #FFA300;
+	border:none;
+}
+.error{
+	color: red;
+}
+

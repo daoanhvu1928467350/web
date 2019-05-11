@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+#tencum{
+	width: 50%;
+}
+.btn-generation2{
+	background-color: #FFA300;
+	color: white;
+}
+.btn-generation2:hover{
+	color: white;
+}
+

@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+.phim{
+	height: auto;
+}
+.caption{
+	background: white;
+	padding: 10px;
+	
+}
+.caption ul{
+	list-style: none;
+}
+.caption ul {
+	padding: 0px!important;
+}
+.thumbnail a{
+	color: black;
+	
+}
+.thumbnail a:hover{
+	text-decoration: none;
+}
+.thumbnail{
+	border:2px solid;
+	padding: 0px!important;
+	background: white;
+}
+.h2-color{
+	color: #FFA300;
+	
+}
+.item-phim{
+	margin-bottom: 10px;
+}
+
+
+

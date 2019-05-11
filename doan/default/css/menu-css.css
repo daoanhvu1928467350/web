@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+#menu-item{
+
+	
+	width: auto;
+	height: auto;
+	z-index: 0;
+	padding: 10px;
+	
+	
+}
+.extend{
+	list-style: none;
+	background-color:#383333;
+	color: white;
+	padding: 10px;
+	border-style: solid;
+	border-width: 1px;
+	height: auto;
+	width: 200px;
+	display: none;
+	
+}
+.extend li a:hover{
+	color: #FFA300;
+	cursor: pointer;
+}
+.title-menu{
+	text-align: center;
+	padding: 5px;
+	border-width: 1px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px;
+	
+}
+.title-menu:hover{
+	
+	cursor: pointer;
+	
+	
+}
+.extend li a{
+	color: white;
+	text-decoration: none;
+}
+#img-menu-item img{
+	height: 150px;
+	width: 200px;
+	z-index: 100;
+	border-radius: 100px;
+	position: absolute;top:30px;left: 50%;
+}
+#link-reponsive-menu{
+		display: none;
+	}
+.icon-menu{
+		font-size: 30px;
+	color: #999999;
+	}
+@media (max-width:768px){
+	#img-menu-item{
+		display: none;
+	}
+	
+	#header-menu{
+		display: none;
+	}
+	#link-reponsive-menu{
+		display: block;
+		background-color: #FDFCF0;
+	}
+	#ul-link-reponsive{
+		padding-left: 100px;
+	}
+	
+	.icon-menu{
+		margin: 10px;
+		/*margin-left: 80px;*/
+		margin-bottom: 0px;
+	   
+	}
+	.nav-item{
+		padding: 0px!important;
+	}
+	#icon-menu{
+		font-size: 20px;
+		text-align: center;
+	}
+	.div-reponsive-menu{
+		border-bottom: 1px solid;
+		
+	}.h3-reponsive{
+		font-size: 20px;
+		padding: 5px;
+	}
+	#link-reponsive-menu ul li{
+		list-style: none;
+		border:1px solid;
+		margin:10px;
+		padding: 0px;
+	}
+	#tab-menu{
+		background-color: #EDEDED!important
+	}
+	.active-reponsive{
+		background-color: #EDEDED;
+		height: auto;
+		margin: 0px!important;
+	}
+	#search-reponsive{
+		height: 200px;
+		border:1px solid;
+		
+	}
+	#input-search{
+		
+		width: 270px;
+		padding: 0px!important;
+		margin:100px auto; 
+	}
+	#input-search input{
+		margin: 0px!important;
+		font-size: 20px;
+	}
+	#input-search button{
+		height: 100%;
+		margin: 0px!important;
+	}
+	#italic{
+		font-size: 30px;
+	}
+	.display-menu-reponsive{
+		display: none;
+	}
+	
+	
+	
+}
+
+
+
+

@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tongsove-element-statistic h3{
+	
+    
+}
+#thongke-element{
+	height: auto;
+	
+	margin: 0px!important;
+}
+#tongsove-element-statistic{
+		
+	margin: 0px!important;
+}
+#tongsove-statistic{
+	background-color: #F39C12;
+	color: white;
+}
+.icon-statistic{
+	color:black;
+	opacity: 0.1;
+	text-align: center;
+	transition: transform .2s;
+	font-size: 100px;
+    position: absolute;
+	right: 10px;
+}
+
+.item-statistic{
+	
+	color: white;
+	width: 275px;
+	height: 150px!important;
+	
+	margin: 0px!important;
+	
+	margin-left: 15px!important;
+}
+
+.item-padding{
+	padding-left: 25px;
+	padding-top: 25px;
+	width: 50%;
+	
+}
+.item-padding h3{
+	font-size: 50px;
+	
+	
+}
+.bg-blue{
+	background-color: #00C0EF;
+}
+.bg-red{
+	background-color: #DD4B39;
+}
+.bg-green{
+	background-color: #00A65A;
+}
+#thongke{
+	background-color: white;
+	height: auto!important;
+	
+	padding: 20px!important;
+}
+#thongke a{
+	height: 100%!important;
+	
+	width: auto;
+	text-decoration: none;
+	color: white;
+	margin: 0px!important;
+	padding: 0px!important;
+	
+	
+	
+}
+#Top10{
+	margin-top: 20px;
+}
+@media(max-width:768px){
+	.icon-statistic{
+		display: none;
+	}
+	.item-statistic{
+		width: 40%;
+		display: inline-block;
+		height: 100px!important;
+		margin: 15px!important;
+	}
+	.item-padding h3{
+		font-size: 25px;
+		text-align: center;
+	
+	}
+	.item-padding {
+		width: 100%;
+			padding: 0px;
+		padding-top: 25px;
+		
+	}
+	.item-padding p{
+		font-size: 15px;
+		text-align: center;
+	}
+	
+}
+@media(max-width:400px){
+	.item-statistic{
+		width: 100%;
+		display: inline-block;
+		height: 100px!important;
+		margin: 15px!important;
+	}
+}

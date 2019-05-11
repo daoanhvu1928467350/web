@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+#chitietphim{
+	height: auto;
+	
+	padding: 0px!important;
+}
+#element-chitiet{
+	height: auto;
+	padding: 0px!important;
+}
+#thongtinphim{
+	height: auto;
+	padding: 0px!important;
+}
+#img-thongtinphim{
+	padding: 0px!important;
+}
+.img-chitietphim{
+	height: 355px;
+	width: 300px;
+	margin: 20px;
+}
+#thongtinphim-chitiet{
+	margin-left: 0px;
+	margin-top: 20px;
+}
+#img-giave{
+	height: 400px;
+	width: 600px;
+}
+#giave{
+	padding: 20px;
+}
+#ul-chitietthongtin{
+	padding: 0px;
+}
+#play-trailer-phim{
+	border-radius: 90px;
+	border: 1px white solid;
+	padding: 40px;
+	padding-left: 50px;
+	opacity: 0.8;
+	position: absolute;top: 25%;left: 80px;
+	background-color: black;
+}
+#play-trailer-phim:focus{
+	outline: none;
+}
+#play-trailer-phim:hover{
+	opacity: 0.4;
+}
+.title-lichchieuphim1{
+	height: auto;
+	width: 30%;
+	padding: 10px;
+	border: 1px solid;
+	background-color: #FFA300;
+	color: white;
+}
+#content-lichchieuphim{
+	height: auto;
+	border: 1px solid;
+}
+#ul-lichchieuphim li{
+	display: inline-block;
+	border: 1px solid;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 25px;
+}
+#ul-lichchieuphim li a{
+	color: black;
+	text-decoration: none;
+}
+#ul-lichchieuphim li a:hover{
+	color: white;
+}
+.li-item-lichchieuphim:hover{
+	background-color: #FFA300;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.nav-item .active{
+	background-color: #FFA300!important;
+}
+.nav-item a{
+	color:black;
+}
+.nav-item{
+	border:1px #FFA300 solid;
+	border-radius: 5px;	
+}
+#lichchieuphim{
+	margin: 25px;
+}
+#date-element-lichchieu{
+	border: 1px solid;
+	height: auto;
+	width: auto!important;
+	padding: 10px;
+	padding-top: 2px;
+	border-radius: 2px;
+	
+}
+#date-lichchieu{
+	font-size: 18px;
+	border: 0px ;
+	background-color: #FDFCF0;
+	vertical-align: middle;
+}
+#date-lichchieu:focus{
+	outline: none;
+}
+
+#element-thoidiem{
+	height: auto;
+	
+}
+
+#icon-datlich{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+@media  (max-width:768px){
+	#img-giave{
+		width: 350px;
+		height: 350px;
+	}
+	#h5-lichchieuphim{
+		width: 100%;
+	}
+	#date-element-lichchieu{
+		margin-left: 18px;
+	}
+	.title-lichchieuphim1{
+		width: 100%!important;
+	}
+}
+
+
+
+
+

@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+#img-movie{
+ 
+}
+#img-movie{
+	height: 70;
+}
+hr{
+	
+	 -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: double double;
+  border-width: 2px 0;
+  margin: 18px 0;
+}
+
+#selection-movie{
+	height: 355px;
+	border-style: solid!important;
+	
+}
+#title-phimdangchieu{
+	margin: 0!important;
+	margin-bottom: 10px!important;
+}
+
+
+.slide{
+	border-style: solid;
+	border-width: 1px;
+	border-color: blue;
+	/*padding: 50px;*/
+	height: 300px;
+}
+@media (max-width:768px){
+	#title-phimdangchieu{
+		display: none;
+	}
+	hr{
+		display: none;
+	}
+	#img-mid-event{
+		text-align: center;
+	}
+}
+

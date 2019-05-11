@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#select-mota{
+	margin-left: 50px;
+	
+}
+#element-about h2{
+	margin-left: 50px;
+}
+#btn-about-component{
+/*	margin-left: 50px;
+	background-color:#FFA300;
+	color: white;*/
+}
+.btn-generation{
+	margin-left: 50px;
+	background-color:#FFA300;
+	color: white!important;
+}
+.btn-generation:hover{
+	color: white;
+}
+

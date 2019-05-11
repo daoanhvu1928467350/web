@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+#thanhtoan{
+	height: auto!important;
+	
+}
+.h2-thanhtoan{
+	color: #FF424E;
+}
+.thontinthanhtoan{
+	margin-left: 0%;
+}
+#thongtin-thanhtoan{
+	
+	background-color: white;
+	box-shadow: -1px 4px 14px -12px #382d38;
+	float: left;
+	margin-bottom: 2%;
+	width: auto;
+}
+#tongtien-thanhtoan{
+	background-color: white;
+	box-shadow: -1px 4px 14px -12px #382d38;
+	margin-left: 2%;
+	
+	width: 300px!important;
+	padding: 25px;
+	float: left;
+}

@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+.img-loaive-thuvien1{
+height: auto!important;
+	width: auto;
+	float: left;
+	margin: 10px;
+}
+#div-loaive1{
+	display: none;
+}
+
+

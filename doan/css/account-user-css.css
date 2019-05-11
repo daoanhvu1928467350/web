@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+#update-infomation-user{
+	display: none;
+	padding: 15px;
+}
+#span-click-update{
+	color: goldenrod;
+	margin: 5px;
+}
+#span-click-update:hover{
+	cursor: pointer;
+	color: #FFA300;
+	opacity: 0.6;
+}
+#menu-account-user{
+	height: 100%!important;
+	
+	margin: 25px!important;
+	border-right: 1px solid;
+}
+#page-account{
+	height: auto;
+	padding: 25px!important;
+	padding-bottom: 25px!important;
+	
+}
+#element-user{
+	height: auto;
+	background-color: white;
+	margin:25px!important;
+	padding: 0px!important;
+	margin-left: 0px;
+	box-shadow: 10px 11px 14px -13px #8c898c;
+}
+#ul-account li{
+	width: 300px!important;
+	
+}
+#content-account{
+	
+	padding: 0px;
+}
+#see-infomation-user{
+	padding: 5px;
+}
+.khung{
+	background-color: #FFA300;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	
+}
+.tongtienve{
+	  position:fixed;
+    top: 50%;
+    left: 50%;
+    width:800px;
+    height:300px;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -20em; /*set to a negative number 1/2 of your width*/
+    border-radius: 2px;
+    background-color: white;
+	display:none;
+	
+	z-index: 120!important;
+
+	
+}
+
+#table-detail-tongve{
+	z-index: 120;
+}
+#lichsudatve{
+	z-index: 120;
+}
+#night3{
+	height: auto;
+	position: absolute;
+	top:0;bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: black;
+	opacity: 0.6;
+	z-index: 100;
+	display: none;
+}
+.header-modal{
+	border-bottom: 1px solid;
+}
+#thongtinchung{
+
+	padding: 5px;
+}
+#thongtinchung1{
+	height: 100%;
+}
+#img-thongtinchung{
+	
+}
+#infomation-user-768{
+	display: none;
+	
+}
+@media  (max-width:768px){
+	#thongtin-account-user{
+	 display: none;
+	}
+	#update-infomation-user input{
+		width: 350px;
+	}
+	#infomation-user-768{
+		list-style-type: none;
+		display: block;
+	}
+}
+
+

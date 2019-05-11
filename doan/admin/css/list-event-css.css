@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.item-event{
+	
+	height: 200px;
+	padding: 0px;
+	transition: transform .2s;
+	margin-top: 50px;
+	margin-left: 5%;
+}
+.item-event:hover{
+	transform: scale(1.1);
+	box-shadow: -2px 3px 16px 0px #000000;
+	cursor: pointer;
+	
+}
+.item-event img{
+	height: 100%;
+	width: 100%;
+	
+}
+.item-event a{
+	height: 100%;
+}
+

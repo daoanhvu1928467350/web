@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+#dx{
+	width: 100%;
+	border-bottom: solid;
+	margin: 0px!important;
+	padding: 0px!important;
+	
+	background-color: #FDFCF0;
+	z-index: 2;
+	
+}
+#dx .dx-img{
+	border-top: solid;
+	border-bottom: solid;
+	border-color: black;
+	padding: 0px!important;
+}
+#dx img{
+	height: 70px;
+
+	width: 100%;
+}
+#background-footer{
+	background-image: url("../image/bg-bottom-footer.jpg");
+	width: 100%;
+	height: 100px;
+}
+#introduction{
+	height: auto!important;
+	border:1px solid;
+	margin: 0px!important;
+   padding: 0px!important;
+	
+}
+#introduction ul{
+	list-style: none;
+	padding: 0px!important;
+}
+.auto-height {
+	height: auto;
+	padding: 40px!important;
+	color: black!important;
+	
+	
+}
+#introduction ul li{
+	margin: 10px;
+	text-transform: capitalize;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+#introduction ul li a{
+	color: black;
+}
+.nav-item{
+	margin: 10px!important;
+}
+#footer a{
+	
+	text-decoration: none;
+}
+#footer{
+	padding: 0px!important;
+		color: #878784;
+	
+	/*background-image: url(../image/bg-bottom-footer.jpg);*/
+
+}
+#connect-footer li{
+	border: none!important;
+}
+.h3-footer{
+	font-weight: bolder;
+	font-size: 18px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+@media (max-width:768px){
+	
+	#introduction ul li{
+		border:1px  solid;
+	}
+	#introduction ul li:hover{
+		background-color: #FFA300;
+		cursor: pointer;
+	}
+	#chamsoc ul li{
+		border: none;
+		
+	}
+	#chamsoc{
+		background-color: #E7E2E2;
+	}
+	#dx img{
+	height: 70px;
+     margin-left: 20px;
+	width: 509px;
+}
+	.nav li{
+		border: none!important;
+	}
+	
+}
+
+
+
+
+

@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+.modal-content{
+	width:1005px !important;
+	margin-left: -20em!important;
+}
+.modal-body{
+	padding: 0px!important;
+}
+
